@@ -1,0 +1,1017 @@
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to West (straight)
+  🚗 Vehicle passed from West (straight) - waited 0.0s
+🚗 Vehicle added to West (turning)
+  🚗 Vehicle passed from West (turning) - waited 0.0s
+🟡 YELLOW light for West
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (turning)
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 5.7s
+  🚗 Vehicle passed from East (turning) - waited 8.8s
+  🚗 Vehicle passed from East (turning) - waited 6.8s
+🚗 Vehicle added to South (turning)
+  🚗 Vehicle passed from East (turning) - waited 5.5s
+  🚗 Vehicle passed from East (turning) - waited 2.8s
+  🚗 Vehicle passed from East (turning) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.8s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to East (straight)
+  🚗 Vehicle passed from East (straight) - waited 0.0s
+🟡 YELLOW light for East
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (turning)
+📈 DP adaptive schedule (queue-aware)  South=3s (predicted4), West=3s (predicted5), North=3s (predicted3), East=3s (predicted0)
+🚨 EMERGENCY VEHICLE added at North
+
+🚨🚨🚨 EMERGENCY PREEMPTION ACTIVE! 🚨🚨🚨
+ Clearing path for North direction
+🟢 GREEN light for North
+  🚑💨 EMERGENCY VEHICLE PASSED from North! (waited 0.0s)
+  🚗 Vehicle passed from North (straight) - waited 14.6s
+  🚗 Vehicle passed from North (turning) - waited 29.6s
+📈 DP adaptive schedule (queue-aware)  South=3s (predicted4), West=3s (predicted5), North=3s (predicted1), East=3s (predicted0)
+  🚗 Vehicle passed from North (turning) - waited 22.4s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for North
+🚗 Vehicle added to West (turning)
+🚨 EMERGENCY VEHICLE added at South
+
+🚨🚨🚨 EMERGENCY PREEMPTION ACTIVE! 🚨🚨🚨
+ Clearing path for South direction
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 0.0s)
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+  🚗 Vehicle passed from South (turning) - waited 13.1s
+📈 DP adaptive schedule (queue-aware)  West=3s (predicted8), South=3s (predicted3), East=3s (predicted3), North=3s (predicted0)
+  🚗 Vehicle passed from South (turning) - waited 8.2s
+  🚗 Vehicle passed from South (turning) - waited 7.3s
+  🚗 Vehicle passed from South (turning) - waited 4.9s
+🚗 Vehicle added to South (straight)
+  🚗 Vehicle passed from South (straight) - waited 0.0s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (straight)
+🟢 GREEN light for South
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (straight)
+  🚗 Vehicle passed from South (straight) - waited 0.0s
+🚗 Vehicle added to South (turning)
+  🚗 Vehicle passed from South (turning) - waited 0.0s
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🚗 Vehicle added to North (straight)
+
+======================================================================
+SIMULATION FINAL STATISTICS
+======================================================================
+   Mode ADAPTIVE (Queue-aware ordering + DP schedule)
+   Vehicles generated 289
+   Vehicles served 266
+   Total waiting time 2837.5s
+   Average waiting time 10.67s
+   Service efficiency 92.0%
+   Emergency preemption triggered Yes
+======================================================================
+
+▶ Running GREEDY mode simulation...
+
+======================================================================
+🚦 TRAFFIC SIMULATION - GREEDY
+======================================================================
+Configuration
+   Duration 180s
+   Traffic rate 0.8 vehiclessec
+   Mode GREEDY
+   Base green duration 30s
+   Yellow duration 3s
+   Queue capacity 20 vehicleslane (≈5.0 KB total)
+   Historical buffer 24 slots (one day of hourly pattern data)
+======================================================================
+
+🟢 SIMULATION STARTING...
+
+🚗 Vehicle added to North (turning)
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 0.0s
+🚗 Vehicle added to North (straight)
+  🚗 Vehicle passed from North (straight) - waited 0.0s
+🚗 Vehicle added to North (straight)
+  🚗 Vehicle passed from North (straight) - waited 0.0s
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to South (straight)
+🚨 EMERGENCY VEHICLE added at West
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 1.0s)
+  🚗 Vehicle passed from West (straight) - waited 3.4s
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 3.4s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 4.6s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 2.2s
+  🚗 Vehicle passed from West (straight) - waited 2.3s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+
+🔴🔴🔴 SIMULATING EMERGENCY VEHICLE ARRIVAL 🔴🔴🔴
+🚨 EMERGENCY VEHICLE added at North
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 2.2s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚑💨 EMERGENCY VEHICLE PASSED from North! (waited 2.3s)
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 4.6s
+  🚗 Vehicle passed from South (turning) - waited 2.3s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 4.7s
+  🚗 Vehicle passed from East (turning) - waited 2.3s
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 2.2s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to North (straight)
+  🚗 Vehicle passed from North (straight) - waited 0.0s
+  🚗 Vehicle passed from North (straight) - waited 0.1s
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 2.4s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 7.4s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚨 EMERGENCY VEHICLE added at North
+🚨 EMERGENCY VEHICLE added at East
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚑💨 EMERGENCY VEHICLE PASSED from North! (waited 1.0s)
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 3.4s)
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+🚗 Vehicle added to East (turning)
+🚨 EMERGENCY VEHICLE added at East
+🚗 Vehicle added to West (straight)
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 0.0s)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.2s
+  🚗 Vehicle passed from West (turning) - waited 2.5s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 5.7s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+  🚗 Vehicle passed from West (turning) - waited 1.2s
+🚨 EMERGENCY VEHICLE added at East
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 1.0s)
+  🚗 Vehicle passed from East (turning) - waited 3.5s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (straight) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 2.4s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to North (turning)
+  🚗 Vehicle passed from North (straight) - waited 0.0s
+  🚗 Vehicle passed from North (turning) - waited 0.1s
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.2s
+  🚗 Vehicle passed from East (turning) - waited 2.5s
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 8.7s
+  🚗 Vehicle passed from South (straight) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 2.2s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+  🚗 Vehicle passed from West (turning) - waited 3.6s
+🚗 Vehicle added to North (straight)
+🚨 EMERGENCY VEHICLE added at North
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚑💨 EMERGENCY VEHICLE PASSED from North! (waited 1.0s)
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 2.2s
+  🚗 Vehicle passed from South (straight) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 2.3s
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 8.5s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to North (turning)
+  🚗 Vehicle passed from North (turning) - waited 0.0s
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+🚨 EMERGENCY VEHICLE added at South
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 1.0s)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.2s
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 4.8s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚨 EMERGENCY VEHICLE added at South
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 1.0s)
+  🚗 Vehicle passed from South (turning) - waited 3.5s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to East (straight)
+  🚗 Vehicle passed from South (turning) - waited 0.0s
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.2s
+🚨 EMERGENCY VEHICLE added at South
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 1.0s)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 4.7s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (turning)
+  🚗 Vehicle passed from West (turning) - waited 0.0s
+  🚗 Vehicle passed from West (turning) - waited 0.1s
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 2.5s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 3.6s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 2.2s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+  🚗 Vehicle passed from East (straight) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 5.0s
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 3.7s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚨 EMERGENCY VEHICLE added at West
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 2.2s)
+  🚗 Vehicle passed from West (turning) - waited 1.0s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 2.2s
+  🚗 Vehicle passed from North (straight) - waited 1.1s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 2.2s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 2.2s
+  🚗 Vehicle passed from North (straight) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 2.2s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 3.5s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 7.5s
+  🚗 Vehicle passed from South (straight) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 3.9s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+  🚗 Vehicle passed from South (turning) - waited 1.1s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚨 EMERGENCY VEHICLE added at East
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 1.0s)
+  🚗 Vehicle passed from East (turning) - waited 3.4s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+  🚗 Vehicle passed from South (turning) - waited 3.4s
+  🚗 Vehicle passed from South (turning) - waited 1.1s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 2.3s
+  🚗 Vehicle passed from North (turning) - waited 1.1s
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to West (turning)
+  🚗 Vehicle passed from South (turning) - waited 0.0s
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 3.6s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to East (straight)
+🚨 EMERGENCY VEHICLE added at West
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 1.0s)
+  🚗 Vehicle passed from West (turning) - waited 3.6s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 3.4s
+  🚗 Vehicle passed from South (straight) - waited 1.1s
+  🚗 Vehicle passed from South (turning) - waited 1.1s
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 3.5s
+  🚗 Vehicle passed from East (turning) - waited 2.4s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+  🚗 Vehicle passed from East (straight) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🟡 YELLOW light for East
+🟢 GREEN light for North
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 1.0s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to South (straight)
+🚨 EMERGENCY VEHICLE added at West
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 1.0s)
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 2.2s
+🚗 Vehicle added to North (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 3.4s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+  🚗 Vehicle passed from East (turning) - waited 0.0s
+  🚗 Vehicle passed from East (turning) - waited 0.1s
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 5.0s
+🚨 EMERGENCY VEHICLE added at East
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 3.7s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 2.3s)
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+🚨 EMERGENCY VEHICLE added at East
+🚨 EMERGENCY VEHICLE added at West
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 1.0s)
+  🚗 Vehicle passed from West (straight) - waited 2.3s
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 7.4s
+  🚗 Vehicle passed from South (turning) - waited 1.1s
+🚗 Vehicle added to South (turning)
+  🚗 Vehicle passed from South (turning) - waited 0.1s
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 5.0s)
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 2.2s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+  🚗 Vehicle passed from South (turning) - waited 2.2s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 3.4s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+  🚗 Vehicle passed from West (turning) - waited 1.2s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 3.5s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 3.5s
+  🚗 Vehicle passed from West (turning) - waited 2.4s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (straight)
+  🚗 Vehicle passed from West (straight) - waited 0.0s
+  🚗 Vehicle passed from West (straight) - waited 0.1s
+  🚗 Vehicle passed from West (turning) - waited 1.5s
+  🚗 Vehicle passed from West (turning) - waited 1.7s
+🚨 EMERGENCY VEHICLE added at South
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 1.0s)
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 2.2s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 2.2s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 2.2s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to North (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 1.0s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 2.2s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚨 EMERGENCY VEHICLE added at West
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 4.7s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+  🚗 Vehicle passed from East (turning) - waited 2.4s
+🚨 EMERGENCY VEHICLE added at West
+🚗 Vehicle added to West (turning)
+🚨 EMERGENCY VEHICLE added at East
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 2.3s)
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 1.0s)
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚨 EMERGENCY VEHICLE added at West
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 2.2s)
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to North (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (straight) - waited 1.0s
+🚗 Vehicle added to South (straight)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for East
+  🚑💨 EMERGENCY VEHICLE PASSED from East! (waited 5.9s)
+  🚗 Vehicle passed from East (turning) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 3.4s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚨 EMERGENCY VEHICLE added at West
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 3.5s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+  🚗 Vehicle passed from East (turning) - waited 2.3s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚑💨 EMERGENCY VEHICLE PASSED from West! (waited 3.5s)
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 2.3s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (turning) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 2.3s
+  🚗 Vehicle passed from West (turning) - waited 3.6s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to West (turning)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+  🚗 Vehicle passed from South (turning) - waited 1.1s
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (turning) - waited 3.6s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (turning) - waited 1.0s
+🚨 EMERGENCY VEHICLE added at North
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 2.2s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 3.4s
+  🚗 Vehicle passed from East (straight) - waited 1.1s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (turning)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for North
+  🚑💨 EMERGENCY VEHICLE PASSED from North! (waited 3.5s)
+🚗 Vehicle added to West (turning)
+🚨 EMERGENCY VEHICLE added at South
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for North
+🟢 GREEN light for South
+  🚑💨 EMERGENCY VEHICLE PASSED from South! (waited 1.0s)
+  🚗 Vehicle passed from South (straight) - waited 2.2s
+  🚗 Vehicle passed from South (straight) - waited 1.1s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to East (straight)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+  🚗 Vehicle passed from East (turning) - waited 3.5s
+🚗 Vehicle added to West (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 6.0s
+  🚗 Vehicle passed from West (straight) - waited 1.1s
+  🚗 Vehicle passed from West (turning) - waited 3.7s
+🚗 Vehicle added to North (turning)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for North
+  🚗 Vehicle passed from North (turning) - waited 3.6s
+  🚗 Vehicle passed from North (turning) - waited 1.1s
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to West (turning)
+🟡 YELLOW light for North
+🟢 GREEN light for West
+  🚗 Vehicle passed from West (straight) - waited 1.0s
+  🚗 Vehicle passed from West (turning) - waited 2.3s
+  🚗 Vehicle passed from West (turning) - waited 1.1s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for West
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 1.0s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+🚗 Vehicle added to East (straight)
+🚗 Vehicle added to West (straight)
+🚗 Vehicle added to South (straight)
+🟡 YELLOW light for East
+🟢 GREEN light for South
+  🚗 Vehicle passed from South (straight) - waited 1.0s
+🚗 Vehicle added to South (turning)
+🚗 Vehicle added to East (turning)
+🟡 YELLOW light for South
+🟢 GREEN light for East
+  🚗 Vehicle passed from East (straight) - waited 2.2s
+  🚗 Vehicle passed from East (turning) - waited 1.1s
+
+======================================================================
+SIMULATION FINAL STATISTICS
+======================================================================
+   Mode GREEDY
+   Vehicles generated 288
+   Vehicles served 287
+   Total waiting time 496.2s
+   Average waiting time 1.73s
+   Service efficiency 99.7%
+   Emergency preemption triggered Yes
+======================================================================
+
+================================================================================
+FINAL MODE COMPARISON RESULTS
+================================================================================
+Mode         Generated  Served     Avg Wait(s)    Efficiency
+--------------------------------------------------------------------
+    fixed      289        201        34.15          69.6    %
+    adaptive   289        266        10.67          92.0    %
+🏆 BEST greedy     288        287        1.73           99.7    %
+
+================================================================================
+🏆 THE BEST MODE IS GREEDY with 1.73s average waiting time
+   (Greedy works best for this traffic pattern)
+================================================================================
+
+================================================================================
+TRAFFIC SIMULATOR COMPLETE - All features working!
+================================================================================
+
+ SUMMARY
+    BFS connectivity check Working
+    Dijkstra routing Working
+    DP optimization Working
+    Fixed-time control Working
+    Adaptive control Working (True queue-aware ordering)
+    Greedy algorithm Working
+    Emergency preemption Working
+    Queue visualization Working
